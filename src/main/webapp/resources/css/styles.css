@@ -1,0 +1,119 @@
+html {
+    //background: rgb(243,240,233);
+    background: #ccc;
+}
+body {
+    background: #ccc;
+}
+#container
+{
+    margin: 0 auto;
+    width: 900px;
+    background: #fff;
+}
+
+#header
+{
+    background: #ccc;
+    background-image: url(../img/default-header.png);
+    padding: 20px;
+}
+
+#header h1 { 
+    margin: 0; 
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+.pagination {
+    float: right;
+    margin: 0px;
+}
+
+.panel-body {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#content-container
+{
+    float: left;
+    width: 100%;
+    background: #FFF;
+}
+#tableview {
+    width: 93%;
+    margin: 30px;
+}
+
+#content
+{
+    clear: left;
+    float: left;
+    width: 60%;
+    padding: 20px 0;
+    margin: 0 0 0 4%;
+    //border-right: 1px solid #ccc;
+    display: inline;
+}
+
+#content h3 { margin: 0; }
+
+#content a#requestSubmitButton {
+    float: right;
+}
+
+#v-separator {
+    border-right: 1px solid #ccc;
+    width: 4%;
+    float: left;
+    height: 420px;
+    margin-top: 25px;
+    display: inline;
+}
+
+#aside
+{
+    float: right;
+    width: 26%;
+    padding: 20px 0;
+    margin: 0 3% 0 0;
+    display: inline;
+    //border-left: 1px solid #ccc;
+    //overflow:hidden;
+}
+
+.downloadIcon {
+    background: url(../img/download-resize.gif) no-repeat;
+    padding-right: 3px;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+a.asideLink{
+    text-decoration: none;
+    height: 20px;
+}
+a.asideLink :link, a.asideLink:visited {
+    color: #346086;
+    text-decoration: none;
+}	
+a.asideLink:hover {
+    color: rgb(255, 72, 0);
+    text-decoration: none;
+}
+#aside h3 { margin: 0; }
+
+#footer
+{
+    /*        position: fixed;
+            bottom: 0;*/
+    clear: left;
+    //background: #ccc;
+    text-align: right;
+    padding: 20px;
+    height: 1%;
+    color: #fff;
+    background-image: url(../img/default-header.png);
+}
